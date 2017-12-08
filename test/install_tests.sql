@@ -15,6 +15,8 @@ whenever oserror exit failure rollback
 @ut_expectations/test_expectations_cursor.pks
 @@ut_runner/test_ut_runner.pks
 @@ut_annotation_manager/test_annotation_manager.pks
+@@ut_suite/test_ut_suite.pks
+@@ut_test/test_ut_test.pks
 
 @core.pkb
 @ut_utils/test_ut_utils.pkb
@@ -29,6 +31,8 @@ whenever oserror exit failure rollback
 @ut_expectations/test_expectations_cursor.pkb
 @@ut_runner/test_ut_runner.pkb
 @@ut_annotation_manager/test_annotation_manager.pkb
+@@ut_suite/test_ut_suite.pkb
+@@ut_test/test_ut_test.pkb
 
 set linesize 200
 set define on
